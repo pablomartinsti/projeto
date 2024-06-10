@@ -220,14 +220,14 @@ header a {
 
 /* textos principais */
 
-.container .list .list-item:nth-last-child(1) .content .title ,
+.container .list .list-item:nth-last-child(1) .content .title,
 .container .list .list-item:nth-last-child(1) .content .description,
 .container .list .list-item:nth-last-child(1) .content .buttons {
 
     transform: translateY(50px);
     filter: blur(20px);
     opacity: 0;
-    animation: showContent 0.5s  1s linear 1 forwards;
+    animation: showContent 0.5s 1s linear 1 forwards;
 
 }
 
@@ -239,14 +239,17 @@ header a {
         opacity: 1;
     }
 }
+
 .container .list .list-item:nth-last-child(1) .content .title {
 
     animation-delay: 1.2s;
 }
+
 .container .list .list-item:nth-last-child(1) .content .description {
 
     animation-delay: 1.6s;
 }
+
 .container .list .list-item:nth-last-child(1) .content .buttons {
 
     animation-delay: 2s;
@@ -255,7 +258,7 @@ header a {
 
 /* imagem principal next*/
 
-.container.next .list .list-item:nth-last-child(1) img{
+.container.next .list .list-item:nth-last-child(1) img {
     width: 150px;
     height: 220px;
     position: absolute;
@@ -265,31 +268,32 @@ header a {
     animation: showMainImage 0.5s linear 1 forwards;
 }
 
-@keyframes showMainImage{
-    to{
+@keyframes showMainImage {
+    to {
         bottom: 0;
         left: 0;
         width: 100%;
         height: 100%;
         border-radius: 0;
 
-        
+
     }
-} 
+}
+
 /* imagem principal back*/
 
-.container.back .list .list-item:nth-child(1) img{
-   position: absolute;
+.container.back .list .list-item:nth-child(1) img {
+    position: absolute;
     bottom: 0;
-    left: 0;  
-    animation: hideMainImage 0.5s  linear 1 forwards ;
+    left: 0;
+    animation: hideMainImage 0.5s linear 1 forwards;
     z-index: 1;
 
 }
 
 
 @keyframes hideMainImage {
-    to{
+    to {
         width: 135px;
         height: 200px;
         border-radius: 10px;
@@ -297,5 +301,53 @@ header a {
         bottom: 50px;
 
     }
-    
+
+}
+
+
+
+@media (max-width: 450px) {
+    header {
+
+        width: 90%;
+
+    }
+
+    .container .list .list-item img {
+        width: 100vw;
+        height: calc(100vh + 25px);
+    }
+
+    .container .list .list-item .content {
+
+        right: 10%;
+        padding-right: 10%;
+        width: 70%;
+    }
+
+    .container .list .list-item .content {
+        width: 85%;
+        right: 0%;
+
+    }
+
+    .container .arrows {
+        left: 80px;
+        gap: 40px;
+
+
+    }
+
+    .container .thumb {
+
+        left: 100%;
+    }
+
+
+
+
+
+
+
+
 }
