@@ -7,3 +7,6 @@
 <img src = "https://github.com/pablomartinsti/projeto-city/assets/160162036/bbfbbb5b-48bc-4b46-9208-ee892db37d24">
 
 <img src = "https://github.com/pablomartinsti/projeto-city/assets/160162036/5b14bd89-863b-4113-a013-13bf64559b17">
+
+
+<img src = "https://github.com/pablomartinsti/projeto-city/blob/main/img/computer.png">
