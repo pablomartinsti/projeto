@@ -1,4 +1,4 @@
-<h1>Site de um Carrosel de Cidades !</h1>
+<h1>Site de um Carrossel de Cidades !</h1>
 
 <p>Objetivo do projeto fazer a animação da imagem do card com a tela principal. </p>
 
