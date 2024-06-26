@@ -304,7 +304,20 @@ header a {
 
 }
 
+@media(max-width:920px) {
 
+    .container .arrows {
+        bottom: 50px;
+        left: 90px;
+    }
+
+    .container .thumb {
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+}
 
 @media (max-width: 450px) {
     header {
